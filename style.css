@@ -1,0 +1,410 @@
+/*
+Theme Name: Discount Legos 01
+Theme URI: http://www.discountlegos.com
+Description: Default theme for Discount Legos
+Version: 2.0
+Author: Jesse Williams
+Author URI: http://www.discountlegos.com
+Tags: none
+*/
+
+@import "css/reset.css";
+@import "css/typography.css";
+@import "css/layout.css";
+
+html {
+	height: 100%; }
+
+body { 
+	font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+	background: url(images/bg.png) repeat;
+	font-size:16px;
+	height: 100%; }
+
+a:link {
+	color: #000099;
+	font-weight: bold; }
+
+a:visited {
+	color: #000099; }
+
+a:hover {
+	color: #333; }
+
+a:active {
+	color: #009933; }
+
+#top-image {
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	height: 180px;
+	background-image: url(images/top.png); 
+	background-repeat: no-repeat; }
+
+#search-bar {
+	position: absolute;
+	top: 167px;
+	right: 330px;
+	visibility: hidden; }
+
+.sidebar-frame {
+	background-image: url(images/content-bg.png);
+	background-repeat: repeat;
+	width: 197px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000; }
+
+.left-nav-list li {
+	float: center; }
+
+.left-nav-list li a {
+	display: block;
+	padding: 5px;
+	margin-bottom: 5px;
+	background-image: url(images/left-nav-bg.png);
+	background-repeat: repeat;
+	color: #fff;
+	font-style: normal;
+	font-size: 15px;
+	text-align: center;
+	text-shadow:
+		1px 1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px #000,
+		-1px -1px 1px #000,
+		0px -1px 1px #000,
+		0px 1px 1px #000,
+		1px 0px 1px #000,
+		-1px 0px 1px #000,
+		1px 1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px #000,
+		-1px -1px 1px #000,
+		0px -1px 1px #000,	
+		0px 1px 1px #000,	
+		1px 0px 1px #000,	
+		-1px 0px 1px #000;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000; }
+
+.left-nav-list li a:hover {
+	background-image: url(images/center-bg.png);
+	background-repeat: repeat;
+	text-shadow:
+		1px 1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px #000,
+		-1px -1px 1px #000,
+		0px -1px 1px #000,	
+		0px 1px 1px #000,	
+		1px 0px 1px #000,	
+		-1px 0px 1px #000,
+		1px 1px 1px #000,
+		1px -1px 1px #000,
+		-1px 1px 1px #000,
+		-1px -1px 1px #000,
+		0px -1px 1px #000,	
+		0px 1px 1px #000,	
+		1px 0px 1px #000,	
+		-1px 0px 1px #000; }
+
+.ie .left-nav-list li a {
+	display: block;
+	margin-bottom: 5px;
+	padding: 5px;
+	background-image: url(images/left-nav-bg.png);
+	background-repeat: repeat;
+	color: #fff;
+	font-style: normal;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px; }
+
+.ie .left-nav-list li a:hover {
+	background-image: url(images/center-bg.png);
+	background-repeat: repeat;
+	color: #fff; }
+
+.blank-margin-right {
+	margin-right: 10px; }
+
+.page-center {
+	padding: 10px; }
+
+.outer-frame {
+	background-image: url(images/center-bg.png);
+	background-repeat: repeat;
+	width: 975px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 10px 10px 0px 10px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	box-shadow: 2px 2px 2px #000;
+	-moz-border-radius: 15px;
+	border-radius: 15px; }
+
+.center-frame {
+	background-image: url(images/content-bg.png);
+	background-repeat: repeat;
+	margin-bottom: 10px;
+	padding: 10px 0px 0px 10px;
+	float: right;
+	height: 100%;
+	width: 733px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000; }
+
+.center-center-frame {
+	background-color: #fff;
+	padding: 10px 5px 10px 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	height: 100%;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000; }
+
+.sidebar-frame-blank {
+	width: 215px;
+	height: auto;
+	float: left; }
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size:10px;
+	color: #fff; }
+
+.clear { clear: both; }
+
+* { margin: 0; padding: 0; outline: 0; }
+
+.wpsc {
+	padding-right: 10px;
+	font-size: 12px; }
+
+#wpsc-widget {
+	font-size: 15px; }
+
+.wpsc-button {
+	font-size:1%;
+	font-variant:small-caps;
+	cursor:pointer;
+	background:transparent;
+	text-indent:-9000px;
+	width:94px;
+	height:30px;
+	min-width:94px;
+	min-height:30px;
+	border:0px;
+	border:none; }
+
+.wpsc-checkout {
+	background-image: url(images/checkout.png);
+	float:right;
+	box-shadow: 2px 2px 2px #000; }
+
+.wpsc-checkout:hover {
+	background-image: url(images/checkout-hover.png)}
+
+.wpsc-addtocart {
+	background: url('images/addtocart.png') top left no-repeat; }
+
+.wpsc-buynow {
+	background: url('images/buynow.png') top left no-repeat; }
+
+.wpsc-empty {
+	background: url('images/empty.png') top left no-repeat;
+	box-shadow: 2px 2px 2px #000; }
+
+.wpsc-empty:hover {
+	background: url('images/empty-hover.png') top left no-repeat; }
+
+.wpsc-update{
+	background: url('images/update.png'); }
+
+.wpsc-paypalcheckout{
+	background: url('images/paypalcheckout.png') top left no-repeat;
+	margin-bottom: 10px; }
+
+.wpsc-login-button{
+	background: url('images/login.png') top left no-repeat; }
+
+.wpsc-register-button {
+	background: url('images/register.png') top left no-repeat; }
+
+.wpsc-product-img {
+	float:left;margin:0px 10px 10px 0px;
+	border:1px solid #555; }
+
+.wpsc-hide {
+	display:inline; }
+
+.wpsc-h1 {
+	font-size:12px; }
+
+.wpsc-grid {
+	background-image: url(images/content-bg.png);
+	background-repeat: repeat;
+	padding: 10px;
+	margin: 0px 10px 10px 0px;
+	font-size: 14px;
+	display:block;
+	float:left;
+	width:205px;
+	max-width:205px;
+	height:185px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #000000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000; }
+
+.wpsc-grid li {
+	color: #003399; }
+
+.wpsc-grid li a {
+	color: #003399; }
+
+.wpsc-grid li a:hover {
+	color: #ffff00; }
+
+.wpsc-clear {
+	clear:both; }
+
+.wpscerror {
+	display:block;
+	background-color:#ff0000;
+	color:#000000;
+	margin:5px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
+	border:1px #000000 solid; }
+
+#cc_cvv_input {
+	max-width:30px;
+	width:30px; }
+
+#adsense-container {
+	margin: 10px 0px 0px 0px;
+	max-width: 970px;
+	width: 970px;
+	height: 100px;
+	background-color: #fff; }
+
+#posts-title {
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold; }
+
+img.alignright {
+	float:right;
+	magin:0 0 1em 1em; }
+
+img.alignleft {
+	float:left;
+	margin:0 1em 1em 0; }
+
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; }
+
+.alignright {
+	float:right; }
+
+.alignleft {
+	float:left; }
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; }
+
+input {
+	padding: 2px;
+	background-color: #c0c0c0;
+	height: 25px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; }
+
+input.submit {
+	color: #000;
+	padding: 5px;
+	background-color: #fff;
+	height: 50px;
+	width: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; }
+
+textarea {
+	resize: none;
+	padding: 3px;
+	background-color: #c0c0c0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; }
+
+.cat-menu-item {
+	margin-bottom: 5px; }
+
+.cat-menu-item:hover {
+	background-image: url(images/center-bg.png);
+	background-repeat: repeat;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000; }
+
+.search-results-img {
+	float: left;
+	background-color: 000;
+	height: 72px;
+	width: 102px;
+	padding: 2px 0px 0px 2px; }
+
+.search-results-text {
+	margin-top: 25px;
+	background-color: 000;
+	padding: 2px;
+	width: 595px;
+	height: 20px;
+	float: right; }

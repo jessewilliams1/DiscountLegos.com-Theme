@@ -1,0 +1,7 @@
+		<?php query_posts ($query_string . '&cat=4'); ?>
+		<?php while ( have_posts() ) : the_post() ?>
+		<div id="single-item">
+			<?php the_content('Details....'); ?>
+		</div>
+		<?php endwhile; ?>
+		<div class="clear"></div>

@@ -1,0 +1,1153 @@
+/******************************************************************************/
+/******************************* Common classes *******************************/
+/******************************************************************************/
+
+span.gwt-InlineHTML, span.gwt-InlineLabel {
+	color: #FE9E23;
+}
+
+button.ecwid-MessageBox-button, button.gwt-Button {
+	background:transparent url(icons_red/back_normal.gif) repeat-x scroll 0 0;
+	border:1px solid #8D7D67;
+	color: #000000;
+}
+
+button.gwt-Button:active, button.ecwid-MessageBox-button:active {
+	background:transparent url(icons_red/back_on.gif) repeat-x scroll 0 0;
+	border:1px solid #8D7D67;
+	color: #FFFFFF;
+}
+
+div.ecwid-ServiceMessage-container div.ecwid-ShadowedPopupPanel-content,
+div.ecwid-ShadowedPopupPanel-content {
+    background-color: #610200;
+}
+.ecwid-ServiceMessage-message {
+    color: #ffffff;
+}
+button.ecwid-ServiceMessage-closeButton {
+    background-image: url(icons_red/connection-error-close.gif);
+}
+
+td.ecwid-productBrowser-warning-icon {
+    background-image: url(icons_red/iconWarning.gif);
+}
+td.ecwid-productBrowser-warning-text {
+    color: #FE9E23;
+}
+
+/******************************************************************************/
+/************* Categories (horizontal and vertical) Widget classes ************/
+/******************************************************************************/
+
+div.ecwid-categories {
+	background: #fff;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem {
+	color: #CBCED1;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopCenter {
+	background:transparent url(icons_red/rounded_corners/1_2.gif) repeat-x;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabMiddleRight {
+	background:transparent url(icons_red/rounded_corners/2_3.gif) repeat-y;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabMiddleLeft {
+	background:transparent url(icons_red/rounded_corners/2_1.gif) repeat-y;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopLeft {
+	background:transparent url(icons_red/rounded_corners/1_1.gif) no-repeat;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected td.tabTopRight {
+	background:transparent url(icons_red/rounded_corners/1_3.gif) no-repeat;
+}
+
+div.ecwid-categories-horizontal-menuBarContainer {
+	border-bottom:1px solid #CBCED1;
+}
+
+/* 3rd, 4th, etc level category loading item */
+div.ecwid-categories-MenuBarPopup div.ecwid-categoriesMenuBar span.ecwid-categories-loading {
+	background: url(icons_red/ajax-loader.gif) no-repeat 0px 5px;
+	color: #FFFFFF;
+}
+
+span.ecwid-categories-category {
+	color: #FFFFFF;
+}
+
+
+div.ecwid-categoriesMenuBar td.gwt-MenuItem-selected div.ecwid-categories-category,
+div.ecwid-categoriesMenuBar td.gwt-MenuItem-current div.ecwid-categories-category {
+	color: #FFBB63;
+}
+
+table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected div.ecwid-categories-category {
+	color: #FFBB63;
+}
+
+td.ecwid-categories-vertical-table-cell table.ecwid-categories-vertical-table-cell-categoryLink div.ecwid-categories-category {
+	color: #ffffff;
+}
+
+td.ecwid-categories-vertical-table-cell-selected table.ecwid-categories-vertical-table-cell-categoryLink div.ecwid-categories-category {
+	color: #FFBB63 !important;
+}
+
+div.ecwid-categories-MenuBarPopup {
+	background-color: #450100;
+}
+
+div.ecwid-categoriesMenuBar td.gwt-MenuItem-selected span.ecwid-categories-category, div.ecwid-categoriesMenuBar td.gwt-MenuItem-current span.ecwid-categories-category, td.ecwid-categories-vertical-table-cell-selected span.ecwid-categories-category, table.ecwid-categoriesTabBar table.gwt-TabBarItem-selected span.ecwid-categories-category {
+color: #FFBB63;
+}
+
+
+/******************************************************************************/
+/***************************** Bag Widget classes *****************************/
+/******************************************************************************/
+
+div.ecwid-minicart {
+	background:transparent url(icons_red/minicart.png) no-repeat scroll left top;
+}
+
+div.ecwid-minicart-caption {
+	color: #FFFFFF;
+}
+
+div.ecwid-minicart-label {
+	color: #B4B8BC;
+}
+
+.ecwid-minicart-mini-count {
+	color: #FE9E23;
+	font: 13px tahoma,geneva,verdana,sans-serif;
+}
+
+div.ecwid-minicart-link span.gwt-InlineLabel {
+	color: #FE9E23;
+}
+
+div.ecwid-TermsPopup-terms {
+	border-color: #7D1E00;
+	background-color: #F0BE83;
+	color: #1E2C38;
+}
+
+/******************************************************************************/
+/*********************** Product Browser Widget classes ***********************/
+/******************************************************************************/
+/* background for the main page*/
+div.ecwid-productBrowser {
+	background-color: #fff;
+}
+
+div.ecwid-productBrowser-head {
+	color: #FFFFFF;
+}
+
+div.ecwid-productBrowser-auth a:link, div.ecwid-productBrowser-auth a:active, div.ecwid-productBrowser a:visited {
+	color: #D580D5;
+	text-decoration: none;
+	font-style: italic;
+}
+
+div.ecwid-productBrowser-auth a:hover, div.ecwid-productBrowser-auth a:hover, div.ecwid-productBrowser a:hover {
+	color: #999;
+}
+
+div.ecwid-productBrowser div.ecwid-productBrowser-productNameLink a:link,
+div.ecwid-productBrowser div.ecwid-productBrowser-productNameLink a:active,
+div.ecwid-productBrowser div.ecwid-productBrowser-productNameLink a:visited {
+    color: #FFFFFF;
+}
+
+div.ecwid-productBrowser-sku {
+	display: none;
+}
+
+/* Product price in ProductBrowser */
+
+div.ecwid-productBrowser-price {
+	color: #D580D5 !important;
+}
+
+div.ecwid-productBrowser-subcategories-categoryName {
+	color: #FFFFFF;
+}
+
+div.ecwid-results-topPanel div {
+	color: #c4c5c1;
+}
+div.ecwid-results-topPanel div.ecwid-results-topPanel-itemsCountLabel {
+    color: #A9ABA6;
+}
+div.ecwid-results-topPanel div.ecwid-results-topPanel-viewAsPanel-link {
+    color:#fe9e23;
+}
+
+/* ProductBrowser Pager */
+
+div.ecwid-pager {
+	color: #C4C5C1;
+	font: 12px arial, helvetica, verdana, sans-serif;
+    margin: 0px 5px;
+}
+
+div.ecwid-pager span.ecwid-pager-link {
+	padding: 0px 3px;
+}
+
+div.ecwid-pager span.ecwid-pager-link-enabled {
+    cursor: pointer;
+    color: #FE9E23;
+}
+div.ecwid-pager span.ecwid-pager-link-enabled span {
+    text-decoration: underline;
+}
+div.ecwid-pager span.ecwid-pager-link-disabled {
+    cursor: default;
+    color: #FE9E23;
+}
+
+div.ecwid-pager span.gwt-InlineLabel {
+	color: #C4C5C1;
+}
+/* ProductBrowser breadcrumbs */
+div.ecwid-productBrowser-categoryPath span.gwt-InlineLabel {
+	color: #C4C5C1;
+}
+div.ecwid-productBrowser-categoryPath a:link, div.ecwid-productBrowser-categoryPath a:visited, div.ecwid-productBrowser-categoryPath a:active, div.ecwid-productBrowser-categoryPath a:hover  {
+	color: #FE9E23;
+}
+
+/* Producft Details */
+div.ecwid-productBrowser-details-inTheBagText, div.ecwid-productBrowser-details-inTheBag div {
+	color: #FFFFFF;
+}
+div.ecwid-productBrowser-details-inTheBag {
+	background:transparent url(icons_red/bag.png) no-repeat;
+}
+div.ecwid-productBrowser-details-optionClassText {
+	color: #000;
+}
+div.ecwid-productBrowser-details-price {
+	color: #EC5700;
+}
+div.ecwid-productBrowser-details-descr {
+	color: #000;
+}
+div.ecwid-productBrowser-details-descr li {
+	color: red;
+}
+div.ecwid-productBrowser-details-descr h1, h2, h3, h4, h5, h6 {
+	color: #FFFFFF;
+}
+div.ecwid-productBrowser-categoryDescription {
+	color: #FFFFFF;
+}
+div.ecwid-productBrowser-categoryDescription li {
+	color: #FFFFFF;
+}
+div.ecwid-productBrowser-categoryDescription h1, h2, h3, h4, h5, h6 {
+	color: #FFFFFF;
+}
+span.ecwid-productBrowser-details-optionRadioButton {
+	color: #000;
+}
+form.ecwid-uploadPopup-mainPanel {
+	color: #FFFFFF;
+}
+table.ecwid-uploadPopup-mainPanel-fileListPanel,
+table.ecwid-uploadPopup-mainPanel-fileListPanel span {
+	background-color: #F0BE83;
+	color: #000000;
+}
+div.ecwid-productBrowser-details-optionUploadFiles-filesize {
+	color: #7B7B7B;
+}
+div.ecwid-productBrowser-details-optionUploadFiles-removeButton {
+    background: transparent url(icons_red/remove_file.png) no-repeat center center;
+}
+
+div.ecwid-productBrowser-cart-hint {
+    color: #EC5700;
+}
+
+.ecwid-productBrowser-details-optionUploadFiles-widget .ecwid-fieldEnvelope-label {
+	color: #ec5700;
+}
+button.ecwid-uploadPopup-addButton {
+	background: url("icons_red/boxAdd.gif") no-repeat scroll center center transparent;
+}
+button.ecwid-uploadPopup-deleteButton {
+	background: url("icons_red/boxDelete.gif") no-repeat scroll center center transparent;
+}
+button.ecwid-uploadPopup-deleteButton-disabled {
+	background: url("icons_red/boxDeleteDisabled.gif") no-repeat scroll center center transparent;
+}
+
+div.ecwid-productBrowser-details-sku {
+	color: #FEFEFE;
+}
+div.ecwid-productBrowser-details-inStockLabel {
+	color: #1D9433;
+}
+div.ecwid-productBrowser-details-outOfStockLabel-allInBag {
+	color: #C6C7C6;
+}
+div.ecwid-productBrowser-details-qtyLabel {
+	color: #EC5700;
+}
+div.ecwid-productBrowser-details-qtyLabel {
+	color: #FFFFFF;
+}
+input.ecwid-productBrowser-details-qtyTextField {
+	color: #010000;
+}
+div.ecwid-productBrowser-details-qtyAvailInfo {
+	color: #FFFFFF;
+}
+div.ecwid-productBrowser-details-priceIncludesTaxesLabel {
+    color:#FFFFFF;
+}
+span.ecwid-productBrowser-details-taxName {
+    color:#FFFFFF;
+}
+span.ecwid-productBrowser-details-taxValue {
+    color:#EC5700;
+}
+div.ecwid-productBrowser-details-optionPanel label.ecwid-fieldLabel {
+    color:#ffffff;
+}
+
+div.ecwid-popup-content label.ecwid-fieldLabel {
+    color:#000000;
+}
+span.ecwid-productBrowser-cart-weight {
+	color: #C4C5C1;
+}
+
+.ecwid-productBrowser-cart-changeOptionsPopup span.ecwid-productBrowser-details-optionRadioButton {
+	color: #000000;
+}
+
+div.ecwid-noimage {
+	background:transparent url(icons_red/noimage.gif) no-repeat !important;
+}
+div.ecwid-noimage-small {
+	background: transparent url(icons_red/noimage-small.gif) no-repeat;
+}
+
+/* Panel in ProductBrowser  */
+div.ecwid-productBrowser-backgroundedPanel {
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+table.ecwid-productBrowser-productsGrid-mainTable {
+	color: #C4C5C1;
+}
+/*single products on the front page*/
+div.ecwid-productBrowser-productsGrid-productTopFragment,
+div.ecwid-productBrowser-productsGrid-productBottomFragment {
+	background-color: #fff;
+}
+div.ecwid-productBrowser-productsGrid-productTopFragment-inTheBag div.ecwid-productBrowser-productsGrid-inTheBagTick {
+	background:transparent url(icons_red/tick.png) no-repeat scroll center center;
+}
+
+div.ecwid-productBrowser-productsList-details div.ecwid-productBrowser-sku {
+    color:#c4c5c1;
+}
+div.ecwid-productBrowser-productsList-descr {
+	color: #ededed;
+}
+div.ecwid-productBrowser-productsList-inTheBagTick {
+    background-image: url(icons_red/tick.png);
+}
+td.ecwid-productBrowser-productsTable-cell {
+    border-color: #7d1e00;
+}
+td.ecwid-productBrowser-productsTable-cellOdd {
+    background-color: #300102;
+}
+td.ecwid-productBrowser-productsTable-cellEven {
+    background-color: #450100;
+}
+div.ecwid-productBrowser-productsTable div.ecwid-productBrowser-sku {
+    color: #c4c5c1;
+}
+div.ecwid-productBrowser-productsTable-inTheBagTick {
+    background-image: url(icons_red/tick.png);
+}
+div.ecwid-productBrowser-productsTable-addToBagLink {
+    color: #fe9e23;
+}
+
+/* "Add to bag" button */
+div.ecwid-AddToBagButton-up, div.ecwid-AddToBagButton-up-hovering,
+div.ecwid-AddToBagButton-down, div.ecwid-AddToBagButton-down-hovering {
+	background-image: url(icons_red/add_to_bag.png);
+}
+div.ecwid-AddToBagButton-ie6-up, div.ecwid-AddToBagButton-ie6-up-hovering,
+div.ecwid-AddToBagButton-ie6-down, div.ecwid-AddToBagButton-ie6-down-hovering {
+    background-image: url(icons_red/add_to_bag.gif);
+}
+
+/* "Continue Shopping" button */
+div.ecwid-ContinueShoppingButton-up, div.ecwid-ContinueShoppingButton-up-hovering,
+div.ecwid-ContinueShoppingButton-down, div.ecwid-ContinueShoppingButton-down-hovering {
+	background-image: url(icons_red/continue_shopping.png);
+}
+div.ecwid-ContinueShoppingButton-ie6-up, div.ecwid-ContinueShoppingButton-ie6-up-hovering,
+div.ecwid-ContinueShoppingButton-ie6-down, div.ecwid-ContinueShoppingButton-ie6-down-hovering {
+    background-image: url(icons_red/continue_shopping.gif);
+}
+
+/* Cart */
+
+td.ecwid-productBrowser-cart-emptyCartPanel-td,
+td.ecwid-Checkout-orderFailed-td {
+	background-color: #450100;
+}
+
+div.ecwid-productBrowser-cart-emptyCartPanel .gwt-Label {
+	color: #000000;
+}
+
+div.ecwid-MessageBox, div.ecwid-MessageBox-msg {
+	color: #FFFFFF;
+	background-color: #450100;
+}
+
+/* Cart panel */
+
+div.ecwid-productBrowser-cart-backgroundedPanel {
+	background-color: #300102;
+}
+
+div.ecwid-productBrowser-cart-subtotalLabel,
+div.ecwid-productBrowser-cart-shippingLabel,
+div.ecwid-productBrowser-cart-taxLabel,
+div.ecwid-productBrowser-cart-totalLabel {
+	color: #FFFFFF;
+}
+
+div.ecwid-productBrowser-cart-subtotalAmount,
+div.ecwid-productBrowser-cart-shippingAmount,
+div.ecwid-productBrowser-cart-taxAmount,
+div.ecwid-productBrowser-cart-totalAmount {
+	color: #EC5700;
+}
+
+div.ecwid-productBrowser-cart-shippingAmount-waiting {
+	background-image: url(icons_red/ajax-loader.gif);
+}
+
+div.ecwid-productBrowser-cart-checkoutButton-up, div.ecwid-productBrowser-cart-checkoutButton-up-hovering,
+div.ecwid-productBrowser-cart-checkoutButton-down, div.ecwid-productBrowser-cart-checkoutButton-down-hovering {
+	background-image: url(icons_red/checkout.png);
+}
+div.ecwid-productBrowser-cart-checkoutButton-ie6-up, div.ecwid-productBrowser-cart-checkoutButton-ie6-up-hovering,
+div.ecwid-productBrowser-cart-checkoutButton-ie6-down, div.ecwid-productBrowser-cart-checkoutButton-ie6-down-hovering {
+    background-image: url(icons_red/checkout.gif);
+}
+
+/* Shopping Cart */
+
+div.ecwid-productBrowser-cart-productNameLink a,
+div.ecwid-productBrowser-cart-productNameLink a:active,
+div.ecwid-productBrowser-cart-productNameLink a:visited {
+	color: #FFFFFF;
+}
+
+div.ecwid-productBrowser-cart div.ecwid-productBrowser-sku {
+	color: #C4C5C1;
+}
+
+.ecwid-productBrowser-cart-itemsTable .gwt-Label {
+	color: #C6C7C6;
+}
+
+td.ecwid-productBrowser-cart-itemsTable-cell {
+	border-bottom: 1px solid #7D1E00;
+}
+td.ecwid-productBrowser-cart-itemsTable-cell-last {
+    border-bottom-color: transparent;
+}
+td.ecwid-productBrowser-cart-itemsTable-cell-selected {
+    background-color: #7d1c0a;
+}
+div.ecwid-productBrowser-cart-price {
+	color: #EC5700;
+}
+
+input.ecwid-productBrowser-cart-qtyTextField {
+	color: #000000;
+	width: 36px;
+}
+
+tr.ecwid-productBrowser-cart-itemsTable-row-selected,
+/* workaround for IE7: the background-color does not work properly for TR */
+td.ecwid-productBrowser-cart-itemsTable-cell-selected {
+	background-color: #781d02;
+	border-bottom: solid 1px #7D1E00;
+}
+tr.ecwid-productBrowser-cart-itemsTable-row-selected-last,
+td.ecwid-productBrowser-cart-itemsTable-cell-selected-last {
+    border-bottom-color: transparent;
+}
+
+td.ecwid-productBrowser-cart-itemsTable-headerCell {
+	color: #FFFFFF;
+}
+
+div.ecwid-productBrowser-cart-removeItemButton {
+	background:transparent url(icons_red/remove_item.gif) no-repeat scroll center center;
+}
+
+/* Discount Coupon box */
+div.ecwid-productBrowser-cart-EnterCouponBox {
+	background-color: #300102;
+	border: 1px solid #7d1e00;
+}
+div.ecwid-productBrowser-cart-EnterCouponBox .gwt-Label {
+	color: #ffffff;
+}
+
+.ecwid-EcwidHintingLink {
+    color: #ff9e21;
+}
+
+.ecwid-EcwidHintingLink-Popup {
+	background-color: #300102;
+	border: 1px solid #7d1e00;
+	color: #ffffff;
+}
+
+div.ecwid-Invoice-Summary-value .ecwid-EcwidHintingLink {
+	color: #000000;
+}
+
+/*  Checkout BreadCrumbs */
+
+div.ecwid-Checkout-BreadCrumbs-link {
+	color: #FE9E23;
+}
+
+div.ecwid-Checkout-BreadCrumbs-link-current {
+	border-bottom-color: #d76600;
+	color: #FE9E23;
+}
+
+div.ecwid-Checkout-BreadCrumbs-link-visited {
+	color: #FE9E23;
+}
+
+div.ecwid-Checkout-BreadCrumbs-point {
+	background-image: url(icons_red/checkout_point_not_visited.png);
+}
+
+div.ecwid-Checkout-BreadCrumbs-point-visited {
+	background-image: url(icons_red/checkout_point_visited.png);
+}
+
+div.ecwid-Checkout-BreadCrumbs-point-current {
+	background-image: url(icons_red/checkout_point_current.png);
+}
+
+div.ecwid-Checkout-BreadCrumbs-section {
+	background-image: url(icons_red/checkout_section_not_visited.gif);
+}
+
+div.ecwid-Checkout-BreadCrumbs-section-visited {
+	background-image: url(icons_red/checkout_section_visited.gif);
+}
+
+
+/* Ecwid Forms */
+
+div.ecwid-form {
+	background-color: #F0BE83;
+}
+
+div.ecwid-form a:link, div.ecwid-form a:active, div.ecwid-form a:visited {
+	color: #A74510;
+}
+
+table.ecwid-Checkout-blockTitle div.gwt-Label {
+	color: #FFFFFF !important;
+}
+
+label.ecwid-fieldLabel {
+    color: #000000;
+}
+
+
+/* Invoice */
+
+div.ecwid-Invoice table {
+	background-color: #FFFFFF;
+}
+
+div.ecwid-Invoice-Header {
+	color: #56534C;
+}
+
+td.ecwid-Invoice-Header-OrderId  span {
+	color: #881F09;
+}
+
+div.ecwid-Invoice-Header, div.ecwid-Invoice-Header td {
+	background-color: #F0BE83;
+}
+
+div.ecwid-Invoice-cell-title {
+	background-color: #D76600;
+}
+
+div.ecwid-Invoice table {
+	background-color: #FFFFFF;
+}
+div.ecwid-Invoice-cell, div.ecwid-Invoice td, div.ecwid-Invoice-ShippingDetails td {
+	background-color: #F0BE83;
+}
+div.ecwid-Invoice button table, div.ecwid-Invoice button td {
+    background-color: transparent;
+}
+
+td.ecwid-Invoice-cell table,
+td.ecwid-Invoice-edgeCell table {
+	background-color: #F0BE83;
+}
+
+div.ecwid-Invoice-footer-placeOrder {
+	background-color: #F0BE83;
+	color: #1E2C38;
+}
+
+div.ecwid-Invoice-footer-placeOrder td, div.ecwid-Invoice-footer-placeOrder .gwt-Label, div.ecwid-Invoice-footer-orderConfirmation, div.ecwid-Invoice-footer-orderConfirmation td, div.ecwid-Invoice-footer-orderConfirmation .gwt-Label {
+	background-color: #F0BE83;
+}
+
+div.ecwid-Checkout-placeOrderButton-up, div.ecwid-Checkout-placeOrderButton-up-hovering,
+div.ecwid-Checkout-placeOrderButton-down, div.ecwid-Checkout-placeOrderButton-down-hovering {
+	background-image: url(icons_red/place_order.png);
+}
+div.ecwid-Checkout-placeOrderButton-ie6-up, div.ecwid-Checkout-placeOrderButton-ie6-up-hovering,
+div.ecwid-Checkout-placeOrderButton-ie6-down, div.ecwid-Checkout-placeOrderButton-ie6-down-hovering {
+    background-image: url(icons_red/place_order.gif);
+}
+
+div.ecwid-Invoice-productName,
+div.ecwid-Invoice-productName a,
+div.ecwid-Invoice-productName a:active,
+div.ecwid-Invoice-productName a:visited {
+	color: #811400;
+}
+
+td.ecwid-Invoice-cell {
+	background-color: #F0BE83;
+}
+
+td.ecwid-Invoice-footer-orderConfirmation-text .gwt-Anchor, td.ecwid-Invoice-footer-orderConfirmation-text .gwt-Anchor:active, td.ecwid-Invoice-footer-orderConfirmation-text .gwt-Anchor:visited {
+	color: #881F09;
+}
+
+div.ecwid-Account-rightPanel-title {
+	color: #FFFFFF;
+}
+
+div.ecwid-form-fieldLabel, .gwt-TextBox, .gwt-PasswordTextBox, .gwt-ListBox, .gwt-TextArea, .gwt-DateBox, td.ecwid-form-fieldLabel {
+	color: #000000;
+}
+
+.gwt-TextBox, .gwt-PasswordTextBox, .gwt-TextArea, .gwt-DateBox, .gwt-ListBox {
+	border: 1px solid #898989;
+}
+
+div.ecwid-MessageBox-msg-info {
+	background: transparent url(icons_red/msg_info.gif) no-repeat 0px 0px;
+        margin-left: 30px;
+        width: 33px;
+        height: 33px;
+}
+
+div.ecwid-MessageBox-msg-question {
+	background: transparent url(icons_red/msg_quest.gif) no-repeat0px 0px;
+        margin-left: 30px;
+        width: 33px;
+        height: 33px;
+}
+
+div.ecwid-MessageBox-msg-warning {
+	background: transparent url(icons_red/msg_warning.gif) no-repeat0px 0px;
+        margin-left: 30px;
+        width: 33px;
+        height: 33px;
+}
+
+div.ecwid-MessageBox-msg-error {
+	background: transparent url(icons_red/msg_error.gif) no-repeat 0px 0px;
+        margin-left: 30px;
+        width: 33px;
+        height: 33px;
+}
+
+div.ecwid-AddressForm-secureLockIcon {
+	background: transparent url(icons_red/lock.gif) no-repeat;
+}
+
+div.ecwid-AddressBook-item {
+	background: #F0BE83 none repeat scroll 0 0;
+}
+
+div.ecwid-productBrowser-backgroundedPanel {
+	background-color: #E8E8E8;
+}
+
+div.ecwid-demo-product-note {
+	color: #000000;
+	background-color: #F0BE83;
+}
+
+div.ecwid-demo-product-note a:link, div.ecwid-demo-product-note a:visited, div.ecwid-demo-product-note a:active, div.ecwid-demo-product-note a:hover {
+	color: #811400;
+}
+
+/* Line */
+
+div.ecwid-Account-AddressBook div.ecwid-Account-ContinueShoppingButtonContainer {
+	border-top: solid 1px #7D1E00;
+}
+
+div.ecwid-AddressBook-block {
+	border: 1px solid #7D1E00;
+	background-color: #FFFFFF;
+}
+
+/* DateRangeBox */
+
+td.ecwid-DateRangeBox-range {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+div.ecwid-DateRangePopup {
+	background-color: #F0BE83;
+	color: #000000;
+	border: 1px solid #736756;
+}
+
+table.ecwid-DateRangePopup-PresetsPanel .gwt-Anchor {
+	color: #811400;
+}
+
+/* Orders */
+
+table.ecwid-OrdersList-OrderBox {
+	border: solid 2px #FFFFFF;
+}
+
+td.ecwid-OrdersList-OrderBox-header-orderdescr {
+	color: #FFFFFF;
+}
+
+td.ecwid-OrdersList-OrderBox-header-orderdescr span {
+	color: #FFFFFF;
+}
+
+td.ecwid-OrdersList-OrderBox-header {
+	background-color: #D76600;
+	color: #FFFFFF;
+}
+
+td.ecwid-OrdersList-OrderBox-cellOdd {
+	background-color: #F0BE83;
+}
+
+td.ecwid-OrdersList-OrderBox-cellEven {
+	background-color: #f9dea9;
+}
+
+td.ecwid-OrdersList-OrderBox-cell {
+	border:2px solid #FFFFFF;
+}
+
+div.ecwid-OrdersList-OrderBox-sku {
+	color: #4b4b4b;
+}
+
+td.ecwid-OrdersList-OrderBox-thumbnail a,
+td.ecwid-OrdersList-OrderBox-thumbnail a:active,
+td.ecwid-OrdersList-OrderBox-thumbnail a:visited,
+div.ecwid-OrdersList-OrderBox-product a,
+div.ecwid-OrdersList-OrderBox-product a:active,
+div.ecwid-OrdersList-OrderBox-product a:visited {
+	color: #811400;
+}
+
+td.ecwid-OrdersList-OrderBox-footer {
+background-color: #f0be83;
+	color: #000000;
+}
+
+td.ecwid-OrdersList-OrderBox-footer .gwt-InlineHTML {
+	color: #000000;
+}
+
+td.ecwid-OrdersList-OrderBox-footer-status .gwt-InlineHTML span span {
+	color: #811400;
+}
+
+td.ecwid-OrdersList-OrderBox-footer .ecwid-OrdersList-OrderBox-price {
+	color: #a20505;
+}
+
+td.ecwid-OrdersList-OrderBox-price {
+	color: #a7110d;
+}
+
+div.ecwid-Orders-EmptyList {
+	background-color: #2C0507;
+	color: #FFFFFF;
+}
+
+div.ecwid-OrdersList-OrderBox-status span {
+	color: #000000;
+}
+
+td.ecwid-OrdersList-OrderBox-totals-price {
+	color: #A7110D;
+}
+
+div.ecwid-EgoodsComponent, div.ecwid-Invoice div.ecwid-EgoodsComponent, div.ecwid-Invoice div.ecwid-EgoodsComponent * {
+    background-color: #f7d799;
+}
+td.ecwid-OrdersList-OrderBox-itemdescr div.ecwid-EgoodsComponent {
+    background-color: #f9dea9;
+}
+div.ecwid-EgoodsComponent-downloadLabel {
+    color: #811400;
+}
+span.ecwid-EgoodsComponent-filesize, span.ecwid-EgoodsComponent-expires {
+    color: #4b4b4b;
+}
+span.ecwid-EgoodsComponent-expires span {
+    color: #219417;
+}
+div.ecwid-EgoodsComponent a, div.ecwid-EgoodsComponent a:active, div.ecwid-EgoodsComponent a:visited {
+    color: #881f09;
+}
+tr.ecwid-EgoodsComponent-egoodRow-expired div.ecwid-EgoodsComponent-description,
+tr.ecwid-EgoodsComponent-egoodRow-expired a, tr.ecwid-EgoodsComponent-egoodRow-expired a:active, tr.ecwid-EgoodsComponent-egoodRow-expired a:visited {
+    color: #4b4b4b;
+    cursor: auto;
+}
+
+
+/******************************************************************************/
+/******************************* Popup components *****************************/
+/******************************************************************************/
+
+div.ecwid-popup-headLabel {
+	color: #FFFFFF;
+}
+
+div.ecwid-FormPopup-fieldWrapper label.ecwid-fieldLabel {
+	color: #000000;
+}
+
+div.ecwid-popup-content-mainPanel {
+	background-color: #F0BE83;
+}
+
+div.ecwid-popup-fieldLabel {
+	color: #000000;
+}
+
+div.ecwid-popup-content-mainPanel .gwt-Anchor:link, div.ecwid-popup-content-mainPanel .gwt-Anchor:active, div.ecwid-popup-content-mainPanel .gwt-Anchor:visited, div.ecwid-popup-content-mainPanel .gwt-Anchor:hover {
+	color: #881F09;
+}
+
+div.ecwid-popup {
+	border: 18px solid #DBBA92;
+	background-color: #450100;
+}
+
+div.ecwid-popup hr {
+	background-color:  #7D1E00;
+}
+
+button.ecwid-popup-closeButton {
+	background: transparent url(icons_red/popup_close.png) no-repeat center center;
+}
+
+div.ecwid-AddressBook-addButton {
+	background: url(icons_red/addNewAddress.gif) no-repeat;
+    color: #7d1e00;
+}
+
+div.ecwid-AddressForm-SSLencryptedPopup {
+	background: transparent url(icons_red/SSLencrypted.png) no-repeat;
+}
+
+div.ecwid-Checkout-ShippingAddress-top {
+	background-color: #D76600;
+}
+
+div.ecwid-Checkout-QIWI-payment-logo {
+	background: url(icons_red/QIWIlogo_small.png) no-repeat transparent;
+	width: 86px;
+	height: 41px;	
+}
+
+div.ecwid-Checkout-QIWI-phone-icon {
+	background: url(icons_red/phone.png) no-repeat transparent;
+	width: 23px;
+	height: 34px;
+}
+
+div.ecwid-Checkout-QIWI-plus-seven {
+	color: #450100;
+	font: 18px bold arial, helvetica, verdana, sans-serif;
+}
+
+div.ecwid-Checkout-blockTitle {
+	color: #FFFFFF;
+}
+
+span.ecwid-shippingOption {
+	color: #000000;
+}
+
+div.ecwid-PaymentMethodSelector .gwt-RadioButton {
+	color: #000000;
+}
+
+div.ecwid-PaymentMethodsBlock-PaymentOption-instructions,
+div.ecwid-PaymentInstructions-instructions {
+	color: #811400;
+}
+
+td.ecwid-PseudoButton-left {
+	background:transparent url(icons_red/blue_box_left.gif) no-repeat 1px 0px;
+}
+
+td.ecwid-PseudoButton-center {
+	background:transparent url(icons_red/blue_box_center.gif) repeat-x;
+}
+
+td.ecwid-PseudoButton-center div.gwt-Label {
+	color: #FFFFFF;
+}
+
+td.ecwid-PseudoButton-right {
+	background: transparent url(icons_red/blue_box_right.gif) no-repeat -1px 0px;
+}
+
+div.ecwid-AccountSettings div.ecwid-Account-ContinueShoppingButtonContainer {
+	border-top: 1px solid #7D1E00;
+}
+
+/* informational messages, disappearing after few seconds */
+
+div.ecwid-DisappearingMessage {
+	border: solid #DBBA92 10px;
+	background-color: #450100;
+}
+
+div.ecwid-DisappearingMessage-content {
+    color: #FE9E23;
+}
+
+div.ecwid-DisappearingMessage-content span {
+    color: #FE9E23;
+}
+
+/* Search */
+
+div.ecwid-productBrowser-search-noResultsLabel {
+	color: #FFFFFF;
+}
+
+/* Gallery */
+
+.ecwid-productBrowser-details-GalleryPanel-linkContainer .gwt-HTML,  .ecwid-productBrowser-details-GalleryPanel-linkContainer .gwt-Anchor {
+	color: #FFFFFF;
+}
+
+div.ecwid-productBrowser-details-GalleryPanel-imageContainer {
+	border: solid 2px #7D1E00;
+}
+
+button.ecwid-gallery-prevButton {
+	background:transparent url(icons_red/gallery_prev.png) no-repeat scroll center center;
+}
+
+button.ecwid-gallery-nextButton {
+	background:transparent url(icons_red/gallery_next.png) no-repeat scroll center center;
+}
+
+td.ecwid-DateRangeBox-icon {
+	border-left: solid 1px #8D7D67;
+	background: #EECCA4 url(icons_red/arrow-south.gif) no-repeat center center;
+}
+
+table.ecwid-DateRangeBox {
+	border: solid 1px #8D7D67;
+}
+
+div.ecwid-gallery-thumbnailsPanel {
+	background-color: #F0BE83;
+}
+
+img.ecwid-gallery-imagePanel-zoomButton-image {
+    background: url(icons_red/gallery_zoom_button.gif) no-repeat center center;
+}
+
+div.ecwid-gallery-imageDescription {
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+	font: normal 14px arial, helvetica, verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+div.ecwid-gallery-imageDescription-top {
+	padding: 40px 0px 30px 0px;
+	display:none;
+}
+
+div.ecwid-gallery-imageDescription-bottom {
+	padding: 30px 0px 40px 0px;
+	display: block;
+}
+
+table.ecwid-gallery-thumbnail {
+	border: 3px solid  #F0BE83;
+}
+
+table.ecwid-gallery-thumbnail-selected {
+	border: 3px solid #7D1E00;
+}
+
+img.ecwid-gallery-thumbnail-selected {
+	border: 3px solid #7D1E00;
+}
+img.ecwid-gallery-image {
+    cursor: pointer;
+	border: 0px;
+}
+
+div.ecwid-productBrowser-cart-asterisk {
+    color:#EC5700;
+}
+
+div.ecwid-productBrowser-cart-estimationNote {
+    color:#FFFFFF;
+}
+div.ecwid-productBrowser-cart-estimationNote span {
+    color:#FE9E23;
+}
+div.ecwid-productBrowser-cart-checkoutOptionsSeparator {
+    color:#FFFFFF;
+}
+div.ecwid-productBrowser-cart-chooseLocationPopup label.ecwid-fieldLabel {
+    color:#1E2C38;
+}
+
+div.ecwid-productBrowser-cart-chooseLocationPopup-deliveryMethodLabel {
+    color:#1E2C38;
+}
+span.ecwid-productBrowser-cart-weight {
+    color:#C6C7C6;
+}
+
+
+/*--------------------------------*/
+/*---- "Share" popup classes -----*/
+/*--------------------------------*/
+
+td.ecwid-SharePopup-header-left,
+td.ecwid-SharePopup-header-right {
+    border-color: #7e8611;
+}
+td.ecwid-SharePopup-header-center div,
+div.ecwid-SharePopup-main {
+    border-color: #7e8611;
+    background-color: #450100;
+	color: #fe9e23;
+}
+div.ecwid-SharePopup-content {
+    background-color: #300102;
+}
+div.ecwid-SharePopup-checkboxes span.gwt-CheckBox {
+    color: #ffffff;
+}
+div.ecwid-SharePopup-checkboxes span.gwt-CheckBox label span {
+    color: #fe9e23;
+}
+div.ecwid-SharePopup-noteLabel {
+    color: #a9aba6;
+}
+div.ecwid-FriendsList {
+    border-color: #7e8611;
+    background-color: #450100;
+}
+input.ecwid-FriendsList-searchBox {
+	background-image: url(icons_red/minisearch.gif);
+}
+div.ecwid-FriendsList-emptyListLabel {
+    color: #a9aba6;
+}
+div.ecwid-FriendsList-friend {
+    color: #ffffff;
+}
+div.ecwid-FriendsList-friend-selected {
+    background-color: #7d1e00;
+}
+div.ecwid-maintenance-popup {
+	border-color: #7d1e00;
+	background-color: #300100;
+    color: #ffffff;
+}
+div.ecwid-maintenance-staff-message {
+	color: #b4b8bc;
+}
+
+div.ecwid-DownloadError-head {
+    color: #ffffff;
+}
+div.ecwid-DownloadError-content {
+    color: #cbced1;
+}
+/* iDEAL Mollie Banks */
+div.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksLbl {
+    color: #000000;
+}
+div.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksLbl-over {
+    color: #450100;
+}
+img.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksImg-over {
+    border: 1px solid #781900;
+}
+img.ecwid-PaymentMethodExtraDetailsBlockIDEALBanksImg-selected {
+    border: 4px solid #781900;
+}
+div.ecwid-PaymentMethodExtraDetailsBlockIDEALBanks-panel {
+    background-color: #e28e43;
+}
+/* --- iDEAL Mollie Banks --- */
+div.ecwid-productBrowser-cart-termsCheckbox-rollover {
+    background-color: #7d1c0a;
+}
+div.ecwid-productBrowser-cart-termsCheckbox {
+    color: white;
+}
